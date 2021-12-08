@@ -11,8 +11,7 @@ Requires a working correctly assignment3 configuration
   • Executed assignment 3 code and output taken for Nested paging (ept = 1).
  
 2. Work done by Supreetha M A:
-
-  • Executed assignment 3 code and output taken for Shadow Paging (ept = 0).
+     • Executed assignment 3 code and output taken for Shadow Paging (ept = 0).
  
  Together we analyzed the output and answered the questions 
 
