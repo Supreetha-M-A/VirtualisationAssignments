@@ -11,6 +11,7 @@ Requires a working correctly assignment3 configuration
   • Executed assignment 3 code and output taken for Nested paging (ept = 1).
  
 2. Work done by Supreetha M A:
+
   • Executed assignment 3 code and output taken for Shadow Paging (ept = 0).
  
  Together we analyzed the output and answered the questions 
@@ -19,17 +20,18 @@ Requires a working correctly assignment3 configuration
 
 Verified: Assignment 3 code is functional.
 
-### Step 1: 
+#### Step 1: 
 Open virt-manager and start virtual machine. Run case 3 from previous assignment (To print all exit type wise counts). 
 
-### Step 2: 
+#### Step 2: 
 Try dmesg (for ept i.e nested paging)
 
-### Step 3:
+#### Step 3:
 execute below commands to switch from nested paging to shadow paging:  
 
 ```
 sudo rmmod kvm_intel && sudo rmmod kvm && sudo modprobe kvm && sudo modprobe kvm_intel ept=0
+
 Reboot
 ```
 
