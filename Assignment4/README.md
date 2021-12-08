@@ -19,17 +19,22 @@ Requires a working correctly assignment3 configuration
 
 Verified: Assignment 3 code is functional.
 
-### Step 1: Open virt-manager and start virtual machine. Run case 3 from previous assignment (To print all exit type wise counts). 
+### Step 1: 
+Open virt-manager and start virtual machine. Run case 3 from previous assignment (To print all exit type wise counts). 
 
-### Step 2: Try dmesg (for ept i.e nested paging)
-### Step 3: execute below commands to switch from nested paging to shadow paging:  
+### Step 2: 
+Try dmesg (for ept i.e nested paging)
+
+### Step 3:
+execute below commands to switch from nested paging to shadow paging:  
 
 ```
 sudo rmmod kvm_intel && sudo rmmod kvm && sudo modprobe kvm && sudo modprobe kvm_intel ept=0
 Reboot
 ```
 
-### Step 4:Try dmesg (without ept i.e Shadow paging)
+### Step 4:
+Try dmesg (without ept i.e Shadow paging)
 
 ### Q3
 
