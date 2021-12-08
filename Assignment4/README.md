@@ -18,7 +18,7 @@ Requires a working correctly assignment3 configuration
 
 ### Q2 Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”.
 
-Verified: Assignment 3 code is functional.
+Verified assignment 3 code is functional.
 
 #### Step 1: 
 Open virt-manager and start virtual machine. Run case 3 from previous assignment (To print all exit type wise counts). 
